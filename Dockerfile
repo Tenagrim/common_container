@@ -13,3 +13,4 @@ RUN chsh -s /bin/zsh
 COPY src/.bashrc ./root/
 COPY src/.bashrc ./root/.zshrc
 COPY src/.vimrc ./root/
+COPY src/settings.json ./root/.config/transmission
