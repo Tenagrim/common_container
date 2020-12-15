@@ -7,7 +7,8 @@ gdb \
 valgrind \
 gcc \
 make \
-zsh
+zsh \
+wget
 RUN chsh -s /bin/zsh
 #RUN pip3 install Django
 COPY src/.bashrc ./root/
